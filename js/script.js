@@ -2,22 +2,25 @@ var v1;
 var v2;
 
 
-function medidaUm(m1) {
+function medidaUm(brl) {
     var btn1 = document.getElementById('btn1');
     
-    switch (m1) {
-        case 'ml':
-            v1 = 'ml';
-            btn1.textContent = 'Metros';
+    switch (brl) {
+        case 'brl':
+            v1 = 'brl';
+            btn1.textContent = 'brl ';
             break;
 
-        case 'km':
-            v1 = 'km';
-            btn1.textContent = 'Quilômetros';
+        case 'euro':
+            v1 = 'euro';
+            btn1.textContent = 'euro';
             break;
-        case 'pes':
-            v1 = 'pes';
-            btn1.textContent = 'Pés';
+        case 'libra':
+            v1 = 'libra';
+            btn1.textContent = 'libra';
+            case 'dolar':
+                v1 = 'dolar';
+                btn1.textContent = 'dolar';
     }
 }
 
