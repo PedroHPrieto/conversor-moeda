@@ -1,5 +1,5 @@
 var moeda, cotDolar, cotEuro, cotLibra, ResultDolar, ResultEuro, ResultLibra;
-function cotar(c) {
+function converter(c) {
     switch (c) {
         case 'BR':
             moeda = document.getElementById("reais").value;
